@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>객관식 모의고사 만들기</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+   
+</head>
+
+<body>
+   
+    <div class="container" >
+        <header>
+            <h1></h1>
+            <div> < 타이머  <span class="timer"></span> ></div>
+        </header>
+       
+        <div class="quiz_area" ></div>
+         
+        <div class="btns">
+                <button type="button" class="preBtn" ">PREV</button>
+                <button type="button" class="nextBtn" ">NEXT</button>
+                <button type="button" class="showAnswerBtn" >RESULT</button>
+                <button type="button" class="tryAgainBtn" style="display:none;" onClick="window.location.reload()">RETRY</button>
+        </div>
+      
+       <!-- 채점한 결과를 보여주는 곳 -->
+       <div class="showResult"></div>
+       <div class="showResultTable"></div>
+    </div>
+
+<!--<script src="slideQuiz.js"></script>-->
+<script src="slideQuiz.js"></script>
+</body>
+</html>
